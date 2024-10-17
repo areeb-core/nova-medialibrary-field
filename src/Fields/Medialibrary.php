@@ -347,12 +347,12 @@ class Medialibrary extends Field
             $model = Flexible::getOriginModel();
         }
 
-        return function () use ($request, $attribute, $model, $callback): void {
+        return function () use ($request, $requestAttribute, $model, $callback): void {
             if (is_callable($callback)) {
                 $callback();
             }
 
-            if (empty($uuid = $request->input($attribute))) {
+            if (empty($uuid = $request->input($requestAttribute))) {
                 return;
             }
 
