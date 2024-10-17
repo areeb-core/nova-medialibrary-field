@@ -1,5 +1,5 @@
 {
-    "name": "dmitrybubyakin/nova-medialibrary-field",
+    "name": "areeb-core/dmitrybubyakin/nova-medialibrary-field",
     "description": "Laravel Nova field for managing the Spatie media library.",
     "keywords": [
         "laravel",
